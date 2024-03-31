@@ -36,7 +36,9 @@ set os.environ["MLFLOW_TRACKING_PASSWORD"]="f25f49136f3dacf02762aa371cc1e52be10a
 ``` bash
 dvc init
 dvc repro
+dvc dag
 ```
 3. dvc init will intialize the dvc folder
 4. dvc repro will run the pipeline with given all artifacts and path
 5. Run the file with dvc repro
+6. dvc dag used to visualize the pipeline
